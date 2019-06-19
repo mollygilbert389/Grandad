@@ -27,8 +27,23 @@ button {
     color: white;
     border-radius: 8px;
     border: rgb(98, 98, 211);
-    height: 30px;
+    height: 50px;
     width: 105px;
     font-size: 20px;
     text-align: center;
+}
+
+#gifSpace {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.651);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: auto;
+}
+
+img {
+    margin: 10px;
 }
