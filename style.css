@@ -14,7 +14,7 @@ body {
 }
 
 #main {
-    background: rgba(255, 255, 255, 0.651);
+    background: rgba(255, 255, 255, 0.377);
     margin-left: 20%;
     margin-right: 20%;
     padding-bottom: 20px;
@@ -46,4 +46,36 @@ button {
 
 img {
     margin: 10px;
+}
+
+#gdad {
+    background: rgba(255, 255, 255, 0.377);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.gdadPics {
+
+    height: 400px;
+    width: 550px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.gdadPics1 {
+    height: 500px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.gdadPics2{
+    height: 460px;
+    width: 510px;
+    margin: 10px;
+    border-radius: 8px;
 }
