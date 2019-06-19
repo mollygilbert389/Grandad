@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
 $("#gifSpace").hide();
+$("#gdad").hide();
 
+$("#photo").on("click", function(){
+    $("#gdad").show();
+})
 
 $("#gifs").on("click", function(){
     gifNum = 10;

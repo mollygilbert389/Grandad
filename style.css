@@ -20,6 +20,7 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
     border-radius: 8px;
+
 }
 
 button {
@@ -31,6 +32,15 @@ button {
     width: 105px;
     font-size: 20px;
     text-align: center;
+
+}
+
+button:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    background-color: green;
 }
 
 #gifSpace {
@@ -78,4 +88,9 @@ img {
     width: 510px;
     margin: 10px;
     border-radius: 8px;
+}
+
+.side {
+    display: inline-block;
+    margin: 5px;
 }
